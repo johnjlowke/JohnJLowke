@@ -1,0 +1,15 @@
+Molten Stainless  Steel. Type 304 SS David, Weld Res Sup Nov. 1995, 355s.
+akappaliqu, thermal conductivity; 
+0.15 0.15 0.19 0.22 37*0.22 37*0.2
+asigliqu
+ 13513. 8000. 6896. 38*6896.
+tmla,melt point K; rholiqu at MP; rhocoeff,rho(T)=rholiqu+(T-tmla)*rhocoeff.
+ 1750  6.95      -0.0009
+cpliqu; cpcoeff,  cpliqu(T) = cpliqu+(T-tmla)*cpcoeff.
+ 0.79  0.0
+aetliqu, vicosity
+ 0.115 0.115 0.04 0.015 37*0.015
+dgamma/dtemp, gamma is surface tension coefficient.
+   41*+0.6  
+   41*0.6  
+   41*0.0 

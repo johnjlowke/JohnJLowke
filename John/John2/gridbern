@@ -1,0 +1,11 @@
+radius,hight,pinl; radius, distance below pin and pinlength; cm  
+ 0.416   2.0    5.0     
+nri, nro; j values for pin inner and outer radius 
+ 6    9         2   3  
+ngapup  ngapdown ngapradius; grid points
+  100   50      50                         
+shup  shdown shrad; mesh size at pin, cm
+  0.01   0.01    0.01           0.002                      
+
+   
+

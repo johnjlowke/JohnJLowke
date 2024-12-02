@@ -1,0 +1,7 @@
+volts;     time step; transition time for metastable ionization; freq; if meta = 1 includes metastables 
+-6000    0.10E-9              0.0                         1     -6000.0                     
+rc          rlx: phi      
+  0.075           0.8            0.9        
+ iterns init field; start 'arcfn' if 2; iter streamer; fac(factor to multiply meatastables); mprint  
+ 3000                    0                10000                   1                                100                  	
+

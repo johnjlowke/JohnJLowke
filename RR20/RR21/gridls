@@ -1,0 +1,32 @@
+Rectangular Cathode 1 or conical cathode 0
+0
+Conical CATHODE (all units cm)
+length, diameter, radius of the tip, conical angle,
+ 3.0	   0.32	    0.02              60
+nntip (z and r pts conic tip), nzc (z pts total), nuni (r pts flat tip)
+ 20				30                 10
+ANODE
+length, diameter, nanode (z pts) nra (Radial pts)
+ 1.0       2.0       25           60              50
+ARC LENGTH
+length, ngap (z pts)
+ 10.0     40
+Cathode sheath, Anode sheath 
+   0.01         0.0100                   0.0005     0.0001                   
+Radius of the domain, nrout (r nb pts cath. to wall)
+ 2.5                    40 
+diameter of the nozzle input flow
+1.22
+Rectangular CATHODE
+length, diameter, nzc (z pts cathode), nrc (r pts cathode)
+ 2.5     0.15        40                  40
+
+
+------ NOT READ ---------------------
+nr = nuni+nntip+nrout = 70 (nb pts radial)
+nz = nzc+ngap+nanode  = 95 (nb pts axial)
+Calculation domaine: Z = 4cm  R = 2.5
+------------------------------------
+nb pts cathode:
+z: nzc = 40
+r: nrc = nuni+nntip=30

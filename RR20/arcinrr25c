@@ -1,0 +1,26 @@
+Current, flow,  LTE(if LTE = 1 uses LTE sigmas not ne), nnn(time steps) 
+-30.     166.0   0                                         10
+ rc     rlxphi   p  vr  vz      t     ne   ni
+0.075    0.995 1.0 0.8 0.8    0.998  0.01  1.000     0.10 0.075
+twall tanode tcathode 
+300.  300.   300.       
+ mm int iter    start 'arcfn' if 1     residu max   write results every n step
+ 16000                1                 0.01			25                      20000   400  100000
+ 1 70 6 10 1. 0 
+ t 1. 300. f t 1  1     jscreen last
+actest delt  didt  ntimesteps   rrrv      deltel  nnel (not used)                      
+t    1.0e-6 2000000.  0       1000000000.   0.250e-9    1               10000000.0  30  1.0e-10
+
+
+
+
+
+t     2.e-7 0.   1       10000000.    100.0                 10000000.0  30
+
+
+
+
+71 86 88 90 91 92 
+1 24 28 32 35 38 40 43 45 47 
+dummy
+1.0
